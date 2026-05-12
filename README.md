@@ -2,7 +2,7 @@
 
 # Idara Samuel Osu
 
-**ML Engineer · Inference · MLOps · Agentic AI**
+**ML Engineer · Inference · MLOps · Agent Ochestration**
 
 [![Email](https://img.shields.io/badge/idaraosusamuel@gmail.com-black?style=flat-square&logo=gmail&logoColor=white)](mailto:idaraosusamuel@gmail.com)
 [![Twitter](https://img.shields.io/badge/@Osuaidy-black?style=flat-square&logo=x&logoColor=white)](https://twitter.com/Osuaidy)

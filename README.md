@@ -1,110 +1,78 @@
+<div align="center">
+
 # Idara Samuel Osu
-### ML Engineer · Inference · MLOps · Agentic AI
 
-`Nigeria` &nbsp;·&nbsp; `Remote` &nbsp;·&nbsp; `Open to Full-time`
+**ML Engineer · Inference · MLOps · Agentic AI**
 
----
+[![Email](https://img.shields.io/badge/opensourceprojexts@gmail.com-black?style=flat-square&logo=gmail&logoColor=white)](mailto:opensourceprojexts@gmail.com)
+[![Twitter](https://img.shields.io/badge/@Osuaidy-black?style=flat-square&logo=x&logoColor=white)](https://twitter.com/Osuaidy)
+[![Location](https://img.shields.io/badge/Nigeria-Remote-black?style=flat-square)]()
 
-> *"The languages of millions — trained, quantized, deployed."*  
-> Founder of **USEM AI**: a production multilingual AI platform for indigenous African languages, built from raw data collection to live inference.
+*Training, optimising, and shipping AI systems — from raw data to production inference.*  
+*Founder of **USEM AI**: multilingual AI for indigenous African languages, built end-to-end.*
 
----
+</div>
 
-## ⚙️ Stack
+<br>
 
-| Domain | Tools |
-|---|---|
-| **Training** | PyTorch · HuggingFace Transformers · NLLB · Whisper · OrpheusTTS · H100 |
-| **Inference Engineering** | TensorRT-LLM · CTranslate2 · vLLM · SGLang · ONNX · TorchScript |
-| **Optimisations** | KV Caching · In-flight Batching · fp16 / int4 AWQ Quantization · Dynamic Shape Profiles |
-| **MLOps** | Vertex AI Pipelines · SageMaker Pipelines · KFP · DVC · MLflow · Evidently AI |
-| **Orchestration** | LangChain · LangGraph · Multi-agent · Tool Calling · Function Routing |
-| **Serving** | FastAPI · SSE Streaming · SageMaker Endpoints · Serverless · Docker |
-| **Monitoring** | BigQuery · CloudWatch · Prometheus · Grafana · Drift Detection · Auto-retrain Triggers |
-| **CI/CD & IaC** | GitHub Actions · Terraform · EventBridge · SQS · S3 · ECR |
-| **Data** | MongoDB · PostgreSQL · Supabase · Large-scale proprietary data pipelines |
+👋 &nbsp;I'm Idara — ML Engineer from Nigeria, building AI for languages the world forgot to include  
+🔭 &nbsp;Currently scaling **USEM AI** and teaching **Etimbuk** (my AI agent) her next language — Annang  
+🌍 &nbsp;On a mission to make every indigenous African language speak through AI  
+⚡ &nbsp;Fun fact: I love the Ancients — Isaac Newton and Nikola Tesla are my people  
+📫 &nbsp;[opensourceprojexts@gmail.com](mailto:opensourceprojexts@gmail.com) &nbsp;·&nbsp; [@Osuaidy](https://twitter.com/Osuaidy)
 
----
+<br>
 
-## 🚀 Projects
+## 🧠 Expertise
 
----
+```
+Training          PyTorch · HuggingFace Transformers · NLLB · Whisper · OrpheusTTS · Molmo · H100
+Inference         TensorRT-LLM · CTranslate2 · vLLM · SGLang · ONNX · fp16 · int4 AWQ
+Optimisation      KV Caching · In-flight Batching · PagedAttention · Dynamic Shape Profiles
+MLOps             Vertex AI Pipelines · SageMaker Pipelines · KFP · DVC · MLflow · Evidently AI
+Agents            LangChain · LangGraph · Multi-agent Orchestration · Tool Calling
+Serving           FastAPI · SSE Streaming · SageMaker Endpoints · Serverless · Docker
+Monitoring        BigQuery · CloudWatch · Prometheus · Grafana · Drift Detection · Auto-retrain
+CI/CD & IaC       GitHub Actions · Terraform · EventBridge · SQS · ECR
+Data              MongoDB · PostgreSQL · Supabase · Proprietary Data Pipelines
+```
 
-### 🗣️ USEM AI — Multilingual AI Platform for Indigenous Languages
-`Founder & ML Engineer` &nbsp;·&nbsp; `2024 – 2026` &nbsp;·&nbsp; `100+ active users`
+<br>
 
-End-to-end AI platform built for Ibibio, Annang, Oro, Ekid, and related languages — from raw data collection through production deployment.
+## 🔬 Work
 
-- Built proprietary speech + text datasets for translation, TTS, and STT from scratch — no off-the-shelf corpus
-- Fine-tuned and instruction-tuned an LLM for multilingual task-following; trained NMT on Meta's NLLB architecture
-- Trained production TTS (OrpheusTTS) and STT models on H100s, evaluated against rigorous quality benchmarks
-- Converted TTS/STT → **TensorRT-LLM**; NMT + Whisper → **CTranslate2** with timestamp support
-- Applied **KV caching · in-flight batching · quantization** for real-time inference
-- Architected **Etimbuk** — a LangGraph multi-tool agent routing across translation, TTS, STT, and creative writing with pedagogically structured output; proactive heartbeat notifications via WhatsApp and Telegram
-- Deployed serverless with full **CI/CD, model versioning, and continuous delivery**
+**[USEM AI](https://github.com/aidyai/usem.ai)** — *Founder & ML Engineer · 2024–2026*
 
----
+Built a production multilingual AI platform for Ibibio, Annang, Oro, and Ekid from nothing — proprietary datasets, model training on H100s, full inference stack, and a live agentic layer. Converted TTS/STT to TensorRT-LLM and NMT + Whisper to CTranslate2. Applied KV caching, in-flight batching, and quantization for real-time throughput. Shipped **Etimbuk** — a LangGraph agent routing across translation, TTS, STT, and creative writing with proactive WhatsApp/Telegram notifications. 100+ active users.
 
-### 🔍 Auto Insurance Damage Inspection Pipeline
-`MLOps Engineer` &nbsp;·&nbsp; `GCP · Vertex AI`
+<br>
 
-Vision model pipeline: damage type + severity + affected part — from raw images to monitored production endpoint.
+**[Auto Insurance Damage Inspection](https://github.com/aidyai/auto-insurance-vertex-ai-pipelines)** — *MLOps · GCP · Vertex AI*
 
-- **EfficientNet-B4 multi-head model** (3 output heads) trained as containerised Vertex AI Pipeline components
-- Dataset versioned with **DVC** (GCS remote); training tracked with **MLflow**
-- **TensorRT fp16 conversion** via `torch_tensorrt` with per-head max-diff assertion (`< 0.05`) for correctness
-- **KFP conditional deployment gate** — pipeline halts and registers model as `Rejected` if `accuracy < 0.85` or `macro F1 < 0.80`
-- Deployed to Vertex AI endpoint (g2 GPU) with **10% canary → full traffic** promotion
-- **Evidently AI** drift monitoring on BigQuery inference logs (image brightness, contrast, blur score, confidence) → automated Vertex Pipeline retrain trigger on drift share ≥ 20%
+Vision pipeline for vehicle damage classification and severity scoring. Fine-tuned **Molmo-2B** as the backbone; full pipeline containerised on Vertex AI with DVC dataset versioning and MLflow experiment tracking. TensorRT fp16 conversion with per-head output diff assertion. KFP conditional deployment gate blocks promotion if `accuracy < 0.85` or `macro F1 < 0.80`. Evidently AI drift monitoring on BigQuery inference logs triggers automated retraining when drift share exceeds 20%.
 
----
+<br>
 
-### 🎙️ Production TTS Deployment — OrpheusTTS + TensorRT
-`Inference Engineer` &nbsp;·&nbsp; `AWS · SageMaker`
+**[Production TTS — OrpheusTTS + TensorRT](https://github.com/aidyai/TTS-TensorRT-LLM-Sagemaker)** — *Inference Engineering · AWS · SageMaker*
 
-OrpheusTTS → ONNX → TensorRT engine pipeline with production streaming and monitoring.
+OrpheusTTS → ONNX → TensorRT: encoder · decoder · HiFi-GAN vocoder, all fp16 with dynamic shape profiles. Sentence-chunked streaming via FastAPI SSE. SageMaker g5.xlarge deployment with 10% canary → smoke test → full traffic promotion in GitHub Actions. Async DNSMOS P.835 scoring on sampled outputs; RTF, TTFC, and GPU utilisation tracked via CloudWatch.
 
-- **Three-component TRT pipeline**: encoder · decoder · HiFi-GAN vocoder — all fp16 with dynamic shape profiles
-- Correctness validated post-conversion: PyTorch vs TRT output diff asserted per head
-- **Sentence-chunked streaming** via FastAPI SSE — latency vs. naturalness trade-off handled at sentence boundary
-- SageMaker `g5.xlarge` (A10G) endpoint deployed via GitHub Actions: **10% canary → smoke test → 100% promotion**
-- Production metrics: **RTF · DNSMOS P.835 · TTFC · GPU utilisation** via CloudWatch custom metrics
-- DNSMOS scored async on 1-in-20 sampled outputs; alert fires if score drops below 3.2
+<br>
 
----
+**[YouTube Summariser — Whisper + Mistral on One GPU](https://github.com/aidyai/Video-Summarizer---TensorRT-LLM)** — *Inference Engineering · AWS*
 
-### 📹 YouTube Video Summariser — Whisper + Mistral on Single GPU
-`Inference Engineer` &nbsp;·&nbsp; `AWS · SageMaker`
+Whisper large-v3 and Mistral 7B, both TensorRT-LLM, co-deployed on a single A10G (24GB). Mistral quantized with int4 AWQ calibrated on CNN/DailyMail. PagedAttention + continuous batching + chunked context on the LLM. Videos over 10 minutes handled via SQS async queue. Prometheus tracks Whisper RTF, LLM TTFT, tokens/sec, and queue depth.
 
-Two TensorRT-LLM models (Whisper large-v3 + Mistral 7B) co-deployed on a single A10G (24GB VRAM).
+<br>
 
-- Whisper converted via `trtllm-build` (encoder + decoder engines, fp16, beam width 4)
-- Mistral 7B quantized with **int4 AWQ** (calibrated on CNN/DailyMail) — lower perplexity than naive int8
-- **PagedAttention + continuous batching + chunked context** enabled on LLM engine
-- Streaming SSE summary: tokens yielded token-by-token with event loop yield between steps
-- Videos > 10 min handled via **SQS async job queue** → S3 result store → polling endpoint
-- Prometheus metrics: **Whisper RTF · LLM TTFT · tokens/sec · queue depth**
+**[Churn Prediction — Postgres to SageMaker](https://github.com/aidyai/churn-sagemaker-pipelines)** — *MLOps · AWS · Supabase*
 
----
+Full SageMaker Pipeline DAG: SQL feature engineering in a Processing Job → GPU-accelerated XGBoost with SHAP → Model Registry approval gate (`AUC ≥ 0.82`, `F1 ≥ 0.75`) → endpoint deployment with live Supabase feature fetch at inference time. EventBridge cron → Lambda → Evidently AI drift check on live database → automated pipeline retrigger on drift share ≥ 30%.
 
-### 📊 Tabular ML — Churn Prediction: Postgres → SageMaker
-`MLOps Engineer` &nbsp;·&nbsp; `AWS · Supabase`
+<br>
 
-Full MLOps lifecycle on tabular data: Supabase PostgreSQL → feature engineering → XGBoost → monitored production endpoint.
+<div align="center">
 
-- SQL feature engineering (multi-table joins, derived features) in **SageMaker Processing Job**; live feature fetch from Supabase at inference time for real-time scoring
-- **GPU-accelerated XGBoost** with `scale_pos_weight` for class imbalance; **SHAP** explainability logged per run
-- **SageMaker Model Registry** approval gate: `AUC ≥ 0.82` and `F1 ≥ 0.75` required for `Approved` status
-- Full **SageMaker Pipeline DAG**: ProcessingStep → TrainingStep → EvaluateStep → ConditionStep → RegisterStep → DeployStep
-- **EventBridge (cron) → Lambda → Evidently AI** drift check on Supabase live data vs. training baseline → automated pipeline retrigger on drift share ≥ 30%
-- Batch prediction endpoint (up to 1000 customers per call) with `high / medium / low` risk tier output
+*BSc Urban & Regional Planning · CGPA 4.35/5.0*
 
----
-
-## 🎓 Education
-
-BSc Urban & Regional Planning &nbsp;·&nbsp; **CGPA 4.35 / 5.0**
-
----
-
-<p align="center"><i>Building AI for the languages that were never in the training data.</i></p>
+</div>

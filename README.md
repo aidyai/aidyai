@@ -4,22 +4,22 @@
 
 **ML Engineer · Inference · MLOps · Agentic AI**
 
-[![Email](https://img.shields.io/badge/opensourceprojexts@gmail.com-black?style=flat-square&logo=gmail&logoColor=white)](mailto:opensourceprojexts@gmail.com)
+[![Email](https://img.shields.io/badge/idaraosusamuel@gmail.com-black?style=flat-square&logo=gmail&logoColor=white)](mailto:idaraosusamuel@gmail.com)
 [![Twitter](https://img.shields.io/badge/@Osuaidy-black?style=flat-square&logo=x&logoColor=white)](https://twitter.com/Osuaidy)
 [![Location](https://img.shields.io/badge/Nigeria-Remote-black?style=flat-square)]()
 
 *Training, optimising, and shipping AI systems — from raw data to production inference.*  
-*Founder of **USEM AI**: multilingual AI for indigenous African languages, built end-to-end.*
+*Founder of **USEM AI**: multilingual AI Agent for Zero-Resource Indigenous African languages, built end-to-end.*
 
 </div>
 
 <br>
 
 👋 &nbsp;I'm Idara — ML Engineer from Nigeria, building AI for languages the world forgot to include  
-🔭 &nbsp;Currently scaling **USEM AI** and teaching **Etimbuk** (my AI agent) her next language — Annang  
+🔭 &nbsp;Currently scaling **USEM AI** and teaching **Etimbuk** (my AI agent) her next language — Ibibio,Annang,Oro  
 🌍 &nbsp;On a mission to make every indigenous African language speak through AI  
 ⚡ &nbsp;Fun fact: I love the Ancients — Isaac Newton and Nikola Tesla are my people  
-📫 &nbsp;[opensourceprojexts@gmail.com](mailto:opensourceprojexts@gmail.com) &nbsp;·&nbsp; [@Osuaidy](https://twitter.com/Osuaidy)
+📫 &nbsp;[idaraosusamuel@gmail.com](mailto:idaraosusamuel@gmail.com) &nbsp;·&nbsp; [@Osuaidy](https://twitter.com/Osuaidy)
 
 <br>
 

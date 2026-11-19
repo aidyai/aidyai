@@ -10,7 +10,7 @@
 <sub><b>Inference Engineering:</b></sub><br/>
 <code>TensorRT-LLM</code> <code>vLLM</code> <code>SGLang</code> <code>CTranslate2</code> <code>KV Caching</code> <code>Quantization</code> <code>In-Flight Batching</code><br/><br/>
 <sub><b>ML, NLP & Speech:</b></sub><br/>
-<code>PyTorch</code> <code>Hugging Face</code> <code>LLMs</code> <code>Instruction Tuning</code> <code>NMT (Meta NLLB)</code> <code>TTS / STT</code> <code>Whisper</code> <code>Pipecat</code> <code>WebRTC / VAD</code><br/><br/>
+<code>PyTorch</code> <code>Hugging Face</code> <code>LLMs</code> <code>Gemma 4 12B</code> <code>Instruction Tuning</code> <code>NMT</code> <code>TTS / STT</code> <code>Whisper</code> <code>Pipecat</code> <code>WebRTC / VAD</code><br/><br/>
 <sub><b>Agentic Frameworks:</b></sub><br/>
 <code>LangGraph</code> <code>LangChain</code> <code>Multi-Agent Orchestration</code> <code>Tool / Function Calling</code><br/><br/>
 <sub><b>Cloud & MLOps Infrastructure:</b></sub><br/>
